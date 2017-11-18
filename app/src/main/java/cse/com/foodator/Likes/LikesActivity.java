@@ -28,7 +28,7 @@ public class LikesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         Log.d(TAG, "onCreate: started.");
 
-        setupBottomNavigationView();
+        //setupBottomNavigationView();
     }
 
     /**
