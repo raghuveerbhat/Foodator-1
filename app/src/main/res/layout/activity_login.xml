@@ -17,7 +17,7 @@
             android:layout_height="100dp"
             android:src="@drawable/login"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="25dp" />
+            android:layout_marginBottom="40dp" />
 
         <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
@@ -53,6 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Login"
+            android:layout_marginTop="25dp"
             android:layout_marginBottom="25dp"
             android:id="@+id/btn_login"
             android:padding="12dp"
@@ -73,8 +74,8 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="300dp"
-        android:id="@+id/loginRequestLoadingProgressbar"/>
+        android:layout_marginTop="330dp"
+        android:id="@+id/progressBar"/>
     
     <TextView
         android:layout_width="wrap_content"
@@ -82,9 +83,10 @@
         android:text="Please wait..."
         android:textColor="@color/black"
         android:textSize="20sp"
-        android:layout_alignBottom="@+id/loginRequestLoadingProgressbar"
-        android:layout_alignRight="@+id/loginRequestLoadingProgressbar"
-        android:layout_alignLeft="@+id/loginRequestLoadingProgressbar"/>
+        android:id="@+id/pleaseWait"
+        android:layout_alignBottom="@+id/progressBar"
+        android:layout_alignRight="@+id/progressBar"
+        android:layout_alignLeft="@+id/progressBar"/>
     
     
 

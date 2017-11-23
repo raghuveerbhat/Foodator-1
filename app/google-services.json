@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "873493457715",
+    "firebase_url": "https://foodator-ad477.firebaseio.com",
+    "project_id": "foodator-ad477",
+    "storage_bucket": "foodator-ad477.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873493457715:android:4c6a6ab7fc9f5a6e",
+        "android_client_info": {
+          "package_name": "cse.com.foodator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873493457715-o23o5rkhnko2ml39bluguibccqetld61.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cse.com.foodator",
+            "certificate_hash": "5f8f519fe15a3bd1221c58fcdeaff9d55ee29d24"
+          }
+        },
+        {
+          "client_id": "873493457715-gdkgbbu4a8t372cm26otg9up1l8ujm77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtVzz4J1caJ9inqT-LDWYPIQg-Zx7jdpE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873493457715-gdkgbbu4a8t372cm26otg9up1l8ujm77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
